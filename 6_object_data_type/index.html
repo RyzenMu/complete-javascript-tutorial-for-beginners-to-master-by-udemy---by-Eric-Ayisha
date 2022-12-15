@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Data Type</title>
+</head>
+<body>
+ 
+    
+ <script>
+/*
+1. Array
+2. Date
+3. Regular Expression
+4. Map and weakmap
+5. Set and weakset
+*/
+const obj = {};
+
+obj.name = 'eric'
+
+const obj1 = {
+    name : "sandi",
+    age : 24,
+};
+
+// to delete a object property use "delete"
+delete obj1.age;
+
+
+// Array is a collection of different data types
+
+const a1 = [1, 2, 3, 4];
+const a2 = [1, null, 'c', 'dare', 5, 6];
+const a3 = [[1,2,3], ['a', 'b', 'c'], ['xyz', 'sun', 'rrr']]
+
+a3[2][2] = 'RRR'
+
+console.log(obj.name);
+console.log(obj1);
+console.log(obj1.name);
+console.log(obj1.age);
+console.log(a2)
+console.log(a3)
+console.log('length of array is ', a3.length)
+console.log(a3[2])
+console.log(a3[2][2])
+
+
+
+ </script>   
+</body>
+</html>
