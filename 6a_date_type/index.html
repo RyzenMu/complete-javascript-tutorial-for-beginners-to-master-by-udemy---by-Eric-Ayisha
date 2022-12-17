@@ -43,7 +43,18 @@ map1.set(t22, 'ryea');
 
 
 
-console.log(map1)
+console.log(map1);
+console.log(map1.keys());
+console.log(map1.has(t11));
+console.log(map1.get(t11));
+
+for(let [k, v] of map1){
+    console.log(k, " : ", v);
+};
+
+map1.forEach((v, k) => {
+    console.log(k, ":", v);
+});
 
 // create set
 

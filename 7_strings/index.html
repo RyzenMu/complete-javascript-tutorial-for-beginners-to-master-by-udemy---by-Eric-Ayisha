@@ -1,0 +1,44 @@
+<!-- // strings
+
+// use backslash for printing single and double quotes
+
+let my_string_1 = 'This \' made \' ' -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings</title>
+</head>
+<body>
+    
+
+<script>
+    let my_string_1 = 'This \' ma\nde \' '
+    console.log(my_string_1)
+
+    let temp = 20.5;
+    let strcat = "The Temperature is " +temp+ "\u00b0c";
+    let strcat1 = `The Temperature is ${temp} \u00b0c`;
+
+    let srtr = `line one
+    line two`
+
+    console.log(strcat)
+    console.log(strcat1)
+    console.log(srtr)
+
+    // confusing strings
+
+    let result1 = 5 * '5';
+    let result2 = 5 + '5';
+
+    console.log(result1);
+    console.log(result2);
+
+
+</script>
+</body>
+</html>
