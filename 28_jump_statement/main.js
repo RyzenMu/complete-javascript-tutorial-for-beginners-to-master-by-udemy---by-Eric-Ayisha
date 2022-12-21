@@ -41,3 +41,9 @@ while (x <= 108) {
 }
 
 
+// return
+
+function add(x) {return x+x;}
+
+
+console.log(add(25));
